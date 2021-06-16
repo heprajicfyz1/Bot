@@ -1,6 +1,6 @@
 from social_ethosa import BetterBotBase
 
-сlass BetterBotBaseDataService(BetterBotBase):
+сlass BetterBotBaseDataService():
        base = BetterBotBase("users", "dat")
        base.addPattern("karma", 0)
        base.addPattern("programming_languages", [])
